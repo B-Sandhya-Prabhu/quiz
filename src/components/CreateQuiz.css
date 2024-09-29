@@ -1,0 +1,87 @@
+/* src/components/CreateQuiz.css */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../bg.png'); /* Add the path to your image here */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed position */
+  }
+  
+  .create-quiz-container {
+    max-width: 800px; /* Adjusted max width for the form */
+    margin: 40px auto; /* Center the form with margin */
+    padding: 30px; /* Adjusted padding for the container */
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    position: relative; /* Ensures correct stacking of elements */
+    z-index: 1; /* Ensure the form is above the background */
+  }
+  
+  h2 {
+    text-align: center; /* Centered title */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Margin below the title */
+  }
+  
+  .form-group {
+    margin-bottom: 10px; /* Space between form elements */
+  }
+  
+  label {
+    display: block; /* Make labels block-level */
+    margin-bottom: 6px; /* Space between label and input */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  input[type="text"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Adjusted padding inside inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 14px; /* Adjusted text size for inputs */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .questions-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of questions */
+    gap: 20px; /* Space between question groups */
+    margin-bottom: 20px; /* Space below questions */
+  }
+  
+  .question-group {
+    flex: 1 1 300px; /* Flex items with a base width of 300px */
+    min-width: 250px; /* Minimum width to maintain layout */
+    background-color: #f9f9f9; /* Light background for questions */
+    padding: 15px; /* Padding for question boxes */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  .button-container {
+    display: flex; /* Flexbox for buttons */
+    justify-content: space-between; /* Space between buttons */
+  }
+  
+  button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Adjusted padding for buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 48%; /* Make buttons take equal space */
+    font-size: 14px; /* Adjust button text size */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darken button on hover */
+  }
+  

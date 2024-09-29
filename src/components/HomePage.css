@@ -1,0 +1,78 @@
+/* HomePage.css */
+.home-background {
+    background-image: url('../bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Center content vertically */
+    color: white; /* Optional: change text color */
+    text-decoration: none;
+  }
+
+
+a {
+    text-decoration: none;
+
+  }
+
+/* HomePage.css */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full page height */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add space between buttons */
+  }
+  
+  .button {
+    padding: 8px 16px; /* Smaller padding for smaller button size */
+    font-size: 14px; /* Slightly smaller font size */
+    color: white;
+    background-color: #007bff; /* Button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+
+.homepage-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px; /* Adjust padding for button size */
+    font-size: 16px; /* Font size */
+    color: white; /* Text color */
+    background-color: #007bff; /* Background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin: 10px; /* Margin between buttons */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  

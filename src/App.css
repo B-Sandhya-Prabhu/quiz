@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Make sure the body takes full height */
+  background-image: url('./bg.png'); /* Path to your image */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating */
+}
+
+.app-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%; /* Allow the container to take full height */
+  color: rgb(7, 7, 7); /* Optional: change text color for readability */
+  z-index: 1; /* Stack it on top of the background */
+}
+
+/* Additional styles for the main container to be consistent */
+.create-quiz-container {
+  max-width: 600px; /* Max width for the form */
+  margin: 20px auto; /* Center the form */
+  padding: 20px; /* Padding for the container */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 600px) {
+  h1, h2, button, input {
+    font-size: smaller;
+    width: 100%;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
